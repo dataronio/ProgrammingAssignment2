@@ -1,6 +1,8 @@
-## These functions store and retrieve a matrix and caches the
-## matrix's inverse.  If the inverse has been calculated previously 
-## we will retrieve it rather than recalculate it again.
+## makeCacheMatrix stores and retrieves a matrix and the matrix's inverse
+## cacheSolve will compute the inverse of the matrix stored in makeCacheMatrix
+## and cache it in the makeCacheMatrix object
+## If the inverse has been calculated and cached previously 
+## cacheSolve will retrieve it rather than recalculate it again.
  
 ## makeCacheMatrix: returns a list of four functions
 ## set: stores a matrix into the object
